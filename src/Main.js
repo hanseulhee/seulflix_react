@@ -4,6 +4,9 @@ import "./Main.css";
 function Main() {
   return (
       <div className="tool">
+          <div className="login__button">
+              <button>login</button>
+          </div>
     <div className="back">
       <img
         className="background"
