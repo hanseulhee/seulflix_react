@@ -1,16 +1,18 @@
 import React from "react";
-import './App.css';
+
+import "./App.css";
 import Navbar from "./components/js/Navbar";
 import Main from "./Main";
-import './Main.css';
+import "./Main.css";
+import Movie from "./routes/js/Movie";
+import "./routes/styles/Movie.css";
 
 function App() {
-  return (
- 
-    <div className="App">
-   <Navbar />
-   <Main />
-    </div>
+  return(
+  <div className="main">
+    <Navbar />
+    <Main />
+  </div>
   );
 }
 

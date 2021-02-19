@@ -3,7 +3,7 @@
 .back {
   position: absolute;
   min-height: 100%;
-  filter: brightness(66%);
+  filter: brightness(63%);
 }
 .back > img {
   width: 100vw;
@@ -49,23 +49,27 @@
 .login__button {
   position: absolute;
   display: flex;
-  flex-direction: row;
+  flex-direction: rocw;
   padding-left: 90%;
-  z-index: 2;
+  z-index: 1;
   margin-top: 10px;
 }
 
-.login__button > button {
+.login__button > .login{
   all: unset;
   background-color: red;
   color: #e4e2e2;
   width: 74px;
-  height: 30px;
+  padding-top: 5px;
+  height: 25px;
   margin-top: 25px;
-  text-align: center;
   border-radius: 4px;
   font-family: "Noto Sans", sans-serif;
   font-size: 13px;
   cursor: pointer;
   font-weight: 700;
+  text-align: center;
 }
+
+
+

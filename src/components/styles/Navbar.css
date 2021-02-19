@@ -15,18 +15,21 @@
 
 }
 
-.nav > a {
+.nav > .a {
   all: unset;
   color: #b3b3b3;
   font-size: 17px;
   font-family: "Noto Sans", sans-serif;
   font-weight: 600;
+  z-index: 20;
+  cursor: pointer;
 
 }
 
-a:hover {
+.a:hover {
   color: white;
   transition: color 1s;
+
 }
 
 .navbar > img{
