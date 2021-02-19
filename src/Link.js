@@ -2,9 +2,9 @@ import React from "react";
 import { HashRouter, Route } from "react-router-dom";
 import Login from "./routes/js/Login";
 import Detail from "./routes/js/Detail";
-import Movie from "./routes/js/Movie";
+import Movie from "./Movie";
 import App from "./App";
-import Home from "./routes/js/Home";
+import Home from "./Home";
 
 function Link() {
   return (

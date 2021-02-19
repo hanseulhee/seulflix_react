@@ -1,0 +1,121 @@
+.loader {
+  width: 100vw;
+  height: 100vh;
+  font-size: 20px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader__text {
+  font-weight: bolder;
+  font-size: 30px;
+  color: white;
+}
+
+
+
+.movietitle{
+    display: grid;
+    padding-top: 8%;
+    
+  
+}
+
+.movies{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 135px);
+    gap: 20px;
+    align-items: stretch;
+    justify-items: stretch;
+    padding-left: 58px;
+}
+.movie{
+    all: unset;
+}
+
+.rate{
+    position: relative;
+    z-index: 444;
+    transition: all 0.2s ease-in-out;
+
+}
+.rate > img{
+    
+ all: unset;
+ position: relative;
+    width: 135px;
+  height: 175px;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.content > h3{
+    all: unset;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.content > h5{
+    all: unset;
+    color:rgba(255,255,255, 0.5);
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+}
+
+.content{
+    
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.b{
+    all: unset;
+}
+
+.star{
+    all: unset; 
+
+    font-size: 10px;
+    font-family: "Noto Sans", sans-serif;
+ 
+    position: absolute;
+    color: #fff;
+    opacity: 0;
+    left: 5px;
+    width: 200px;
+    top: 155px;
+  transition: all 0.1s ease-in-out;
+}
+
+
+
+
+
+
+
+.movietitle > h2{
+    all: unset;
+    padding-left: 58px;
+    font-size: 18px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.rate:hover .star{
+    opacity: 1;
+    
+    
+}
+
+.rate:hover img {
+    
+   
+    filter: brightness(60%);
+}

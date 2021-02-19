@@ -1,9 +1,10 @@
 import React from "react";
+import "../styles/Detail.css";
 
 function Detail(){
     return(
         <div>
-          ffff
+        
         </div>
     )
 }
