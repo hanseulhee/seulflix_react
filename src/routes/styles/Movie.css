@@ -48,6 +48,8 @@
     width: 135px;
   height: 175px;
   transition: all 0.4s ease-in-out;
+  border-radius: 1px;
+ 
 
 }
 
@@ -57,6 +59,7 @@
     font-family: "Noto Sans", sans-serif;
     font-size: 15px;
     font-weight: 700;
+    margin-top: 2px;
 }
 
 .content > h5{
@@ -82,7 +85,7 @@
 .star{
     all: unset; 
 
-    font-size: 10px;
+    font-size: 11px;
     font-family: "Noto Sans", sans-serif;
  
     position: absolute;

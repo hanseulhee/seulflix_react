@@ -3,8 +3,8 @@ import "./routes/styles/Movie.css";
 
 import Home from "./Home";
 import axios from "axios";
-import Navbar from "./components/js/Navbar";
-import "./components/styles/Navbar.css";
+import Navbar from "./routes/js/Navbar";
+import "./routes/styles/Navbar.css";
 import Animation from "./Animation";
 
 class Movieanother extends React.Component {

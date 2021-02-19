@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./App.css";
-import Navbar from "./components/js/Navbar";
+import Navbar from "./routes/js/Navbar";
 import Main from "./Main";
 import "./Main.css";
 import Movie from "./Movie";
