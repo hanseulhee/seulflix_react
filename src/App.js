@@ -4,7 +4,7 @@ import "./App.css";
 import Navbar from "./routes/js/Navbar";
 import Main from "./Main";
 import "./Main.css";
-import Movie from "./Movie";
+
 import "./routes/styles/Movie.css";
 
 function App() {

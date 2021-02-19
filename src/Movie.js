@@ -3,7 +3,6 @@ import "./routes/styles/Movie.css";
 
 import Home from "./Home";
 import axios from "axios";
-import Navbar from "./routes/js/Navbar";
 import "./routes/styles/Navbar.css";
 import Animation from "./Animation";
 import Movieanother from "./Movieanother";
@@ -11,7 +10,6 @@ import Movieanother from "./Movieanother";
 
 class Movie extends React.Component {
   state = {
-    isLoading: true,
     movies: [],
   };
 
@@ -23,7 +21,7 @@ class Movie extends React.Component {
     } = await axios.get(
       "https://yts-proxy.now.sh/list_movies.json?genre=ADVENTURE&limit=18&sort_by=rating"
     );
-    this.setState({ movies, isLoading: false });
+    this.setState({ movies });
     console.log(movies);
   };
 
@@ -32,23 +30,13 @@ class Movie extends React.Component {
   }
 
   render() {
-    const { isLoading, movies } = this.state;
+    const { movies } = this.state;
     return (
       <div className="main">
-        <section className="container">
-          
-          {isLoading ? (
-            <div className="loader">
-              
-            
-              <span className="loader__text">Loading ...</span>
-             
-            </div>
-            
-          ) : (
+       
 
             <div className="main">
-              <Navbar />
+         
               <Animation />
               <Movieanother />
       
@@ -64,6 +52,8 @@ class Movie extends React.Component {
                   title={movie.title}
                   poster={movie.medium_cover_image}
                   rating={movie.rating}
+                  summary={movie.summary}
+                  background_image={movie.background_image}
                 />
               ))}
               
@@ -71,11 +61,9 @@ class Movie extends React.Component {
             </div>
 
             </div>
+            </div>
             
-            
-          )}
-        </section>
-      </div>
+       
     );
   }
 }

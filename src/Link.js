@@ -4,7 +4,6 @@ import Login from "./routes/js/Login";
 import Detail from "./routes/js/Detail";
 import Movie from "./Movie";
 import App from "./App";
-import Home from "./Home";
 
 function Link() {
   return (
@@ -12,7 +11,7 @@ function Link() {
       <Route path="/" exact={true} component={App} />
       <Route path="/movie" component={Movie} />
       <Route path="/login" component={Login} />
-      <Route path="/movie/:id" component={Detail} />
+      <Route path="/home/:id" component={Detail} />
     </HashRouter>
   );
 }

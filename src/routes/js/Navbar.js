@@ -3,10 +3,10 @@ import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
 import logo from '../logo.png';
 
-function Navbar() {
+function Navbar (){
   return (
     <div className="navbar">
-      <img src={logo} alt="Logo" />
+      <img src={logo} alt="Logo"/>
       <div className="nav">
         <Link to="/" className="a">
           홈

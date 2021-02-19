@@ -16,24 +16,24 @@ const Login = ({ history }) => {
       <div>
         <img src={logo} alt="Logo" className="signinlogo" />
 
-        <form id="form" class="form">
-          <div class="signinbox">
-            <div class="inform">Sign In</div>
+        <form id="form" className="form">
+          <div className="signinbox">
+            <div className="inform">Sign In</div>
 
-            <div class="form-control">
+            <div className="form-control">
               <input
                 type="text"
-                class="name input"
+                className="name input"
                 placeholder="Enter username"
               />
 
               <small>Error message</small>
             </div>
 
-            <div class="form-control">
+            <div className="form-control">
               <input
                 type="password"
-                class="password input"
+                className="password input"
                 placeholder="Enter password"
               />
               <small>Error message</small>
@@ -48,13 +48,13 @@ const Login = ({ history }) => {
             >
               Sign In
             </button>
-            <a class="help">Need help?</a>
-            <div class="explain">
-              <div class="plus">
+            <a href="#d" className="help">Need help?</a>
+            <div className="explain">
+              <div className="plus">
                 Forgot your password?&nbsp;
                 <p>Change Password</p>
               </div>
-              <div class="plus2">
+              <div className="plus2">
                 This page is protected by Google reCAPTCHA to ensure you're not
                 a bot. &nbsp;
                 <p>Learn more.</p>

@@ -1,0 +1,78 @@
+
+
+.detail{
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    padding-left: 11%;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.summary{
+    width: 80%;
+    letter-spacing: 1px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.posterimage >img {
+    display: flex;
+    flex-direction: row;
+   
+    width: 440px;
+    height: 550px;
+   
+  border-radius: 1px;
+}
+
+.detail__tool{
+    display: flex;
+    flex-direction: row;
+}
+
+.detail__tool{
+ 
+    padding-top: 9%;
+    padding-left: 58px;
+ 
+}
+
+.detail__intro{
+    display: flex;
+    flex-direction: row;
+
+}
+.detail__intro > h2 {
+    all: unset;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.detail__intro > h4 {
+  
+   margin-left: 17px;
+    font-size: 11px;
+  
+    font-weight: 700;
+    font-family: "Noto Sans", sans-serif;
+    color: rgba(255,255,255, 0.5);
+}
+
+.detail >h5{
+    all: unset;
+    color: rgba(255,255,255, 0.9);
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
+    margin-bottom: 6%;
+}
+
+.backimage > img{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.detail__tool{
+    position: relative;
+    z-index: 22;
+}

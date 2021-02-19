@@ -73,3 +73,12 @@
 
 
 
+.title > button:hover{
+  transition: all 0.3s ease-in-out;
+  filter: brightness(77%);
+}
+
+.login:hover{
+  transition: all 0.3s ease-in-out;
+  filter: brightness(85%);
+}

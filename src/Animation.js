@@ -29,8 +29,21 @@ class Animation extends React.Component {
   }
 
   render() {
-    const { movies } = this.state;
+    const { isLoading, movies } = this.state;
     return (
+      <div className="main">
+        <section className="container">
+          
+          {isLoading ? (
+            <div className="loader">
+              
+            
+              <span className="loader__text">Loading ...</span>
+             
+            </div>
+            
+          ) : 
+   (
       <div className="main">
         <Navbar />
 
@@ -45,10 +58,15 @@ class Animation extends React.Component {
                 title={movie.title}
                 poster={movie.medium_cover_image}
                 rating={movie.rating}
+                summary={movie.summary}
+                background_image={movie.background_image}
               />
             ))}
           </div>
         </div>
+      </div>
+        )}
+        </section>
       </div>
     );
   }

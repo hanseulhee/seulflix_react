@@ -3,9 +3,7 @@ import "./routes/styles/Movie.css";
 
 import Home from "./Home";
 import axios from "axios";
-import Navbar from "./routes/js/Navbar";
 import "./routes/styles/Navbar.css";
-import Animation from "./Animation";
 
 class Movieanother extends React.Component {
   state = {
@@ -47,6 +45,8 @@ class Movieanother extends React.Component {
                   title={movie.title}
                   poster={movie.medium_cover_image}
                   rating={movie.rating}
+                  summary={movie.summary}
+                  background_image={movie.background_image}
                 />
               ))}
               
