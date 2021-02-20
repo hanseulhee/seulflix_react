@@ -15,7 +15,7 @@ function Home({ id, year, title, poster, rating, summary, background_image }) {
           rating,
           poster,
           summary,
-          background_image
+          background_image,
         },
       }}
     >
@@ -30,10 +30,10 @@ function Home({ id, year, title, poster, rating, summary, background_image }) {
           </div>
 
           <div className="content">
-          <img src={background_image} alt={title}  className="no" />
+            <img src={background_image} alt={title} className="no" />
+
             <h3 className="movie__title">{title}</h3>
             <h5 className="movie__year">{year}</h5>
-
           </div>
         </div>
       </div>
