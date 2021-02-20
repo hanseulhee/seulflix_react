@@ -29,36 +29,28 @@ class Movieanother extends React.Component {
 
   render() {
     const { movies } = this.state;
-    return(
-
-            <div className="main">
-           
-            
-            <div className="movietitle">
-            <h2>Comedy</h2>
-            <div className="movies">
-              {movies.map((movie) => (
-                <Home
-                  key={movie.id}
-                  id={movie.id}
-                  year={movie.year}
-                  title={movie.title}
-                  poster={movie.medium_cover_image}
-                  rating={movie.rating}
-                  summary={movie.summary}
-                  background_image={movie.background_image}
-                />
-              ))}
-              
-            </div>
-            </div>
-
-            </div>
-            
-            
-          )}
-   
+    return (
+      <div className="main">
+        <div className="movietitle">
+          <h2>Comedy</h2>
+          <div className="movies">
+            {movies.map((movie) => (
+              <Home
+                key={movie.id}
+                id={movie.id}
+                year={movie.year}
+                title={movie.title}
+                poster={movie.medium_cover_image}
+                rating={movie.rating}
+                summary={movie.summary}
+                background_image={movie.background_image}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+    );
   }
-
+}
 
 export default Movieanother;

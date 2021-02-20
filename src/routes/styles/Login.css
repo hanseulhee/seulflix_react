@@ -1,11 +1,8 @@
-.signinlogo{
-    
+.signinlogo {
   position: absolute;
-    width: 210px;
-    z-index: 222;
+  width: 210px;
+  z-index: 222;
 }
-
-
 
 .signinbox {
   background-color: rgb(0, 0, 0, 0.8);
@@ -41,82 +38,82 @@
 
 .name,
 .password {
-    all: unset;
-    background-color: rgb(51, 51, 51);
-    position: relative;
-    width: 320px;
-    height: 50px;
-    z-index: 4;
-    border-radius: 4px;
-    padding: 2px;
-    color: white;
+  all: unset;
+  background-color: rgb(51, 51, 51);
+  position: relative;
+  width: 320px;
+  height: 50px;
+  z-index: 4;
+  border-radius: 4px;
+  padding: 2px;
+  color: white;
 }
 
 .name:hover,
-.password:hover{
-    all: unset;
-    background-color: rgb(69, 69, 69);
+.password:hover {
+  all: unset;
+  background-color: rgb(69, 69, 69);
 
-    width: 320px;
-    height: 50px;
-    z-index: 4;
-    border-radius: 4px;
-    color: white;
-    font-size: 15px;
+  width: 320px;
+  height: 50px;
+  z-index: 4;
+  border-radius: 4px;
+  color: white;
+  font-size: 15px;
 
-    font-family: "Noto Sans", sans-serif;
-    font-weight: lighter;
-    padding: 2px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: lighter;
+  padding: 2px;
 }
 
 .input:valid {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 input::placeholder {
-    font-family: "Noto Sans", sans-serif;
-    font-size: 15px;
-    font-weight: lighter;
-    /* padding: 15px; */
-    font-weight: 100;
-    color: rgb(140, 140, 140);
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  /* padding: 15px; */
+  font-weight: 100;
+  color: rgb(140, 140, 140);
 }
 .signinbutton {
-    all: unset;
-    background-color: #e50914;
-    color: white;
-    border-radius: 4px;
-    width: 341px;
-    height: 53px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
+  all: unset;
+  background-color: #e50914;
+  color: white;
+  border-radius: 4px;
+  width: 341px;
+  height: 53px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
 
-    font-size: 17px;
-    text-align: center;
-    font-family: "Noto Sans", sans-serif;
-    font-weight: 800;
-    margin-top: 20px;
-    cursor: pointer;
+  font-size: 17px;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 800;
+  margin-top: 20px;
+  cursor: pointer;
 }
 
 .signinbutton:hover {
-    background-color: #9b0910;
-    color: rgb(247, 243, 243);
+  background-color: #9b0910;
+  color: rgb(247, 243, 243);
 }
 
 .explain {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    justify-content: center;
-    align-self: center;
-    width: 341px;
-    margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-self: center;
+  width: 341px;
+  margin-top: 36px;
 }
 .plus {
-    font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 15px;
   font-weight: lighter;
   color: rgb(140, 140, 140);
@@ -129,7 +126,7 @@ input::placeholder {
 }
 
 .plus2 {
-    font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 13px;
   font-weight: lighter;
   color: rgb(140, 140, 140);
@@ -152,7 +149,7 @@ input::placeholder {
   cursor: pointer;
 }
 .form-control small {
-    font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   color: #e86a05;
   letter-spacing: 0.2px;
   font-size: 12px;
@@ -181,7 +178,30 @@ input::placeholder {
   align-items: center;
 }
 
-.signinbutton:hover{
-    transition: all 0.3s ease-in-out;
-    filter: brightness(73%);
+.signinbutton:hover {
+  transition: all 0.3s ease-in-out;
+  filter: brightness(73%);
+}
+
+@media screen and (max-width: 1000px) {
+  .signinbox {
+    width: 330px;
+    height: 600px;
+    top: 150px;
+    left: 13%;
   }
+  .signinbutton {
+    width: 243px;
+    height: 50px;
+  }
+
+  .explain {
+    width: 280px;
+    margin-top: 30px;
+  }
+
+  .help {
+    padding-top: 10px;
+    margin-left: 240px;
+  }
+}

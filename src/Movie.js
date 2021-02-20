@@ -7,7 +7,6 @@ import "./routes/styles/Navbar.css";
 import Animation from "./Animation";
 import Movieanother from "./Movieanother";
 
-
 class Movie extends React.Component {
   state = {
     movies: [],
@@ -33,15 +32,11 @@ class Movie extends React.Component {
     const { movies } = this.state;
     return (
       <div className="main">
-       
+        <div className="main">
+          <Animation />
+          <Movieanother />
 
-            <div className="main">
-         
-              <Animation />
-              <Movieanother />
-      
-            
-            <div className="movietitle">
+          <div className="movietitle">
             <h2>Adventure</h2>
             <div className="movies">
               {movies.map((movie) => (
@@ -56,14 +51,10 @@ class Movie extends React.Component {
                   background_image={movie.background_image}
                 />
               ))}
-              
             </div>
-            </div>
-
-            </div>
-            </div>
-            
-       
+          </div>
+        </div>
+      </div>
     );
   }
 }

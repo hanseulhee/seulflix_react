@@ -33,9 +33,15 @@ class Detail extends React.Component {
 
               <span className="summary">{location.state.summary}</span>
               <div className="detail__button">
-              <button className="startbutton">  <div className="like">▶ </div> Start </button>
-              <button className="likebutton"> <div className="like">➕</div> Contents I'd like </button>
-            </div>
+                <button className="startbutton">
+                  {" "}
+                  <div className="like">▶ </div> Start{" "}
+                </button>
+                <button className="likebutton">
+                  {" "}
+                  <div className="like">➕</div> Contents I'd like{" "}
+                </button>
+              </div>
             </div>
           </div>
         </div>

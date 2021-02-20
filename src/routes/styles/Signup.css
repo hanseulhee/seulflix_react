@@ -109,43 +109,77 @@ input::placeholder {
   color: rgb(247, 243, 243);
 }
 
-.checkbox{
-    width: 25px;
-	height: 25px;
-    border-radius: 4px;
-	cursor: pointer;
-    background-color: rgb(69, 69, 69);
-    margin-right: 5px;
+.checkbox {
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgb(69, 69, 69);
+  margin-right: 5px;
 }
 
-.rule__tool{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    
+.rule__tool {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-.rule{
-    display: flex;
-    flex-direction: row;
-    
+.rule {
+  display: flex;
+  flex-direction: row;
 }
 
-.rule > h4{
-    all: unset;
-    font-family: "Noto Sans KR", sans-serif;
-    font-weight: 400;
-    padding-bottom: 20px;
+.rule > h4 {
+  all: unset;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  padding-bottom: 20px;
 
-    font-size: 16px;
-margin-left: 8px;
+  font-size: 16px;
+  margin-left: 8px;
 }
 
 input[type="checkbox"]:checked {
-    background-color: rgb(69, 69, 69);
+  background-color: rgb(69, 69, 69);
+}
+
+.blue {
+  all: unset;
+  color: #0071eb;
+}
+
+@media screen and (max-width: 1000px) {
+  .signup__tool {
+    width: 83%;
+    padding-top: 33%;
   }
 
-  .blue{
-      all: unset;
-      color: #0071EB;
+  .signup__tool > h2 {
+    padding-bottom: 20px;
+
+    font-size: 19px;
+    width: 230px;
   }
+  .signup__tool > p {
+    all: unset;
+  }
+  .name,
+  .password {
+    width: 220px;
+    height: 50px;
+    padding: 1px;
+  }
+  .rule__tool {
+    width: 260px;
+  }
+
+  .rule > h4 {
+    font-size: 14px;
+  }
+  .signup__button {
+    width: 255px;
+    height: 35px;
+    font-size: 17px;
+    padding-top: 12px;
+  }
+}

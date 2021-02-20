@@ -81,3 +81,37 @@
   transition: all 0.3s ease-in-out;
   filter: brightness(85%);
 }
+
+@media screen and (max-width: 1000px) {
+  .back > img {
+    width: 110vw;
+    height: 110vh;
+  }
+  .nav > .a {
+    display: none;
+  }
+
+  .title > h1 {
+    font-size: 65px;
+  }
+  .title {
+    padding: 70% 7%;
+  }
+  .title > h4 {
+    width: 200px;
+    font-size: 20px;
+  }
+  .login__button {
+    display: none;
+  }
+  .navbar > img {
+    width: 120px;
+  }
+  .free {
+    background-color: red;
+    color: white;
+    width: 240px;
+    height: 33px;
+    margin-top: 31px;
+  }
+}

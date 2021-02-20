@@ -6,7 +6,10 @@ function Main() {
   return (
     <div className="tool">
       <div className="login__button">
-        <Link to="/login" className="login"> login </Link>
+        <Link to="/login" className="login">
+          {" "}
+          login{" "}
+        </Link>
       </div>
       <div className="back">
         <img
@@ -18,7 +21,9 @@ function Main() {
       <div className="title">
         <h1>See What's next.</h1>
         <h4>WATCH ANYWHERE, CANCEL ANYTIME.</h4>
-        <Link to="/freemonth" className="free">JOIN FREE FOR A MONTH</Link>
+        <Link to="/freemonth" className="free">
+          JOIN FREE FOR A MONTH
+        </Link>
       </div>
     </div>
   );

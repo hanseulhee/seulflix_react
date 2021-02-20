@@ -1,18 +1,16 @@
-.navbar{
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    z-index: 2;
+.navbar {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
 }
 .nav {
-    position: relative;
+  position: relative;
   display: flex;
   flex-direction: row;
   width: 800px;
   margin-top: 5%;
   justify-content: space-evenly;
-  
-
 }
 
 .nav > .a {
@@ -23,16 +21,13 @@
   font-weight: 600;
   z-index: 20;
   cursor: pointer;
-
 }
 
 .a:hover {
   color: white;
   transition: color 1s;
-
 }
 
-.navbar > img{
-    width: 210px;
-
+.navbar > img {
+  width: 210px;
 }

@@ -103,3 +103,40 @@
   color: transparent;
   text-shadow: 0 0 0 white;
 }
+@media screen and (max-width: 1000px) {
+  .backimage > img {
+    width: 100%;
+    height: 130vh;
+  }
+
+  .posterimage > img {
+    display: flex;
+    flex-direction: column;
+    width: 198px;
+    height: 300px;
+
+    padding-left: 80px;
+    padding-bottom: 18px;
+  }
+  .detail__tool {
+    padding-top: 28%;
+    padding-left: 10px;
+    flex-direction: column;
+  }
+  .detail {
+    padding-left: 2%;
+    width: 100%;
+  }
+  .summary {
+    width: 71%;
+  }
+  .startbutton {
+    width: 100px;
+    height: 38px;
+    margin-right: 3px;
+  }
+  .likebutton {
+    width: 160px;
+    height: 38px;
+  }
+}

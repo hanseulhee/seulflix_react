@@ -48,7 +48,9 @@ const Login = ({ history }) => {
             >
               Sign In
             </button>
-            <a href="#d" className="help">Need help?</a>
+            <a href="#d" className="help">
+              Need help?
+            </a>
             <div className="explain">
               <div className="plus">
                 Forgot your password?&nbsp;

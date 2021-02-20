@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&display=swap");
 .deviceLogo {
   background: url(https://assets.nflxext.com/ffe/siteui/acquisition/simplicity/Devices.png)
     no-repeat 50% 50%;
@@ -8,7 +8,6 @@
 
   width: 500px;
   margin-right: 2%;
-
 }
 
 .freetool {
@@ -18,27 +17,45 @@
   align-items: center;
   width: 100%;
   padding-top: 10%;
-
 }
 
-.freetool >h5{
-    all: unset;
-    font-family: 'Noto Sans KR', sans-serif;
-    padding-bottom: 10px;
-    font-size: 14px;
+.freetool > h5 {
+  all: unset;
+  font-family: "Noto Sans KR", sans-serif;
+  padding-bottom: 10px;
+  font-size: 14px;
 }
 
-.freetool >h2{
-    all: unset;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 700;
-    padding-bottom: 20px;
-    letter-spacing: 1px;
-    font-size: 21px;
+.freetool > h2 {
+  all: unset;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  font-size: 21px;
 }
 
-.freetool >h4{
-    all: unset;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 400;
+.freetool > h4 {
+  all: unset;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+}
+@media screen and (max-width: 1000px) {
+  .deviceLogo {
+    height: 200px;
+    width: 200px;
+    margin-right: 10%;
+  }
+  .freetool {
+    width: 82%;
+    padding-top: 33%;
+  }
+  .freetool > h4 {
+    font-size: 15px;
+    width: 220px;
+  }
+  .freetool > h2 {
+    padding-bottom: 18px;
+    font-size: 19px;
+  }
 }
