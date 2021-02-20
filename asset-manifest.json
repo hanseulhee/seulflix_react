@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/seulflix_react/static/css/main.0c24716d.chunk.css",
+    "main.js": "/seulflix_react/static/js/main.18a5900e.chunk.js",
+    "main.js.map": "/seulflix_react/static/js/main.18a5900e.chunk.js.map",
+    "runtime-main.js": "/seulflix_react/static/js/runtime-main.56eb445b.js",
+    "runtime-main.js.map": "/seulflix_react/static/js/runtime-main.56eb445b.js.map",
+    "static/js/2.0348b4f1.chunk.js": "/seulflix_react/static/js/2.0348b4f1.chunk.js",
+    "static/js/2.0348b4f1.chunk.js.map": "/seulflix_react/static/js/2.0348b4f1.chunk.js.map",
+    "index.html": "/seulflix_react/index.html",
+    "static/css/main.0c24716d.chunk.css.map": "/seulflix_react/static/css/main.0c24716d.chunk.css.map",
+    "static/js/2.0348b4f1.chunk.js.LICENSE.txt": "/seulflix_react/static/js/2.0348b4f1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56eb445b.js",
+    "static/js/2.0348b4f1.chunk.js",
+    "static/css/main.0c24716d.chunk.css",
+    "static/js/main.18a5900e.chunk.js"
+  ]
+}
