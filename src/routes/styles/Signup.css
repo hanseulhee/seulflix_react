@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&display=swap");
+
+.signup__tool {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 8%;
+}
+
+.form-control_signup {
+  margin-top: 5px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.name,
+.password {
+  all: unset;
+  background-color: rgb(51, 51, 51);
+  position: relative;
+  width: 340px;
+  height: 50px;
+  z-index: 4;
+  border-radius: 4px;
+  padding: 2px;
+  color: white;
+}
+
+.name:hover,
+.password:hover {
+  all: unset;
+  background-color: rgb(69, 69, 69);
+
+  width: 320px;
+  height: 50px;
+  z-index: 4;
+  border-radius: 4px;
+  color: white;
+  font-size: 15px;
+
+  font-family: "Noto Sans", sans-serif;
+  font-weight: lighter;
+  padding: 2px;
+}
+
+.input:valid {
+  padding-left: 20px;
+}
+
+input::placeholder {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  /* padding: 15px; */
+  font-weight: 100;
+  color: rgb(140, 140, 140);
+}
+
+.form-control_signup small {
+  font-family: "Noto Sans", sans-serif;
+  color: #e86a05;
+  letter-spacing: 0.2px;
+  font-size: 12px;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control_signup input {
+  background-color: rgb(69, 69, 69);
+}
+
+.signup__tool > h5 {
+  all: unset;
+  font-family: "Noto Sans KR", sans-serif;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.signup__tool > h2 {
+  all: unset;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  font-size: 21px;
+}
+
+.signup__button {
+  all: unset;
+  background-color: #e50914;
+  color: white;
+  border-radius: 4px;
+  width: 360px;
+  height: 38px;
+  font-size: 17px;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 900;
+  margin-top: 20px;
+  cursor: pointer;
+  padding-top: 14px;
+}
+
+.signup__button:hover {
+  background-color: #9b0910;
+  color: rgb(247, 243, 243);
+}
+
+.checkbox{
+    width: 25px;
+	height: 25px;
+    border-radius: 4px;
+	cursor: pointer;
+    background-color: rgb(69, 69, 69);
+    margin-right: 5px;
+}
+
+.rule__tool{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rule{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.rule > h4{
+    all: unset;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+
+    font-size: 16px;
+margin-left: 8px;
+}
+
+input[type="checkbox"]:checked {
+    background-color: rgb(69, 69, 69);
+  }
+
+  .blue{
+      all: unset;
+      color: #0071EB;
+  }

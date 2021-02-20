@@ -4,6 +4,8 @@ import Login from "./routes/js/Login";
 import Detail from "./routes/js/Detail";
 import Movie from "./Movie";
 import App from "./App";
+import Freemonth from "./Freemonth";
+import Signup from "./Signup";
 
 function Link() {
   return (
@@ -12,6 +14,8 @@ function Link() {
       <Route path="/movie" component={Movie} />
       <Route path="/login" component={Login} />
       <Route path="/home/:id" component={Detail} />
+      <Route path="/freemonth" component={Freemonth} />
+      <Route path="/signup" component={Signup} />
     </HashRouter>
   );
 }

@@ -18,7 +18,7 @@ function Main() {
       <div className="title">
         <h1>See What's next.</h1>
         <h4>WATCH ANYWHERE, CANCEL ANYTIME.</h4>
-        <button>JOIN FREE FOR A MONTH</button>
+        <Link to="/freemonth" className="free">JOIN FREE FOR A MONTH</Link>
       </div>
     </div>
   );

@@ -32,30 +32,31 @@
   font-family: "Noto Sans", sans-serif;
 }
 
-.title > button {
+.free {
   all: unset;
   background-color: red;
   color: white;
   width: 276px;
-  height: 47px;
+  height: 35px;
   margin-top: 31px;
   text-align: center;
   border-radius: 6px;
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;
   cursor: pointer;
+  padding-top: 13px;
 }
 
 .login__button {
   position: absolute;
   display: flex;
-  flex-direction: rocw;
+  flex-direction: row;
   padding-left: 90%;
   z-index: 1;
   margin-top: 10px;
 }
 
-.login__button > .login{
+.login__button > .login {
   all: unset;
   background-color: red;
   color: #e4e2e2;
@@ -71,14 +72,12 @@
   text-align: center;
 }
 
-
-
-.title > button:hover{
+.free:hover {
   transition: all 0.3s ease-in-out;
   filter: brightness(77%);
 }
 
-.login:hover{
+.login:hover {
   transition: all 0.3s ease-in-out;
   filter: brightness(85%);
 }
