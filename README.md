@@ -20,7 +20,7 @@ React with API
 
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/63100352/109459611-7ddf2a00-7aa2-11eb-958d-d6f5dbe7973d.gif)
 
-#### - Main page
+<!-- #### - Main page
 
 <img src="https://user-images.githubusercontent.com/63100352/109461343-589feb00-7aa5-11eb-8a2a-41906a94f06f.PNG" width="600px">
 
@@ -32,7 +32,7 @@ React with API
 
 #### - Signin page
 
-<img src="https://user-images.githubusercontent.com/63100352/109461555-a87eb200-7aa5-11eb-9d0a-7853d7dddccd.PNG" width="600px">
+<img src="https://user-images.githubusercontent.com/63100352/109461555-a87eb200-7aa5-11eb-9d0a-7853d7dddccd.PNG" width="600px"> -->
 
 ---
 
