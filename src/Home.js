@@ -22,9 +22,8 @@ function Home({ id, year, title, poster, rating, summary, background_image }) {
       <div className="movie">
         <div className="movie__data">
           <div className="rate">
-            {" "}
             <img src={poster} alt={title} title={title} className="img" />
-            <span className="star" role="img">
+            <span className="star">
               ⭐ {rating} / 10
             </span>
           </div>
