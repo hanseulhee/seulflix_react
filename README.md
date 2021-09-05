@@ -116,10 +116,13 @@ render() {
 
 ---
 
-#### **_Additional development items_**
+#### Refactoring
 
-- 로그인 기능
-- 회원가입 기능
-- summary 마침표를 기준으로 줄바꿈
-- 해당 영화마다 url 달기
-- ~~media query~~
+- BEM 방식
+
+- scss
+
+```bash
+npm i node-sass
+```
+

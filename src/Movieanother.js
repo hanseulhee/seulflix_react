@@ -3,7 +3,7 @@ import "./routes/styles/Movie.css";
 
 import Home from "./Home";
 import axios from "axios";
-import "./routes/styles/Navbar.css";
+import "./routes/styles/Navbar.scss";
 
 class Movieanother extends React.Component {
   state = {

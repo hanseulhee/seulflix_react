@@ -4,7 +4,7 @@ import "./routes/styles/Movie.css";
 import Home from "./Home";
 import axios from "axios";
 import Navbar from "./routes/js/Navbar";
-import "./routes/styles/Navbar.css";
+import "./routes/styles/Navbar.scss";
 
 class Animation extends React.Component {
   state = {

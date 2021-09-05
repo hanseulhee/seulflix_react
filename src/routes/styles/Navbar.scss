@@ -1,0 +1,28 @@
+.navbar {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  &__logo {
+    width: 210px;
+  }
+  &__nav {
+    position: relative;
+    display: flex;
+    width: 800px;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    &__a {
+      all: unset;
+      color: #b3b3b3;
+      font-size: 17px;
+      cursor: pointer;
+      &:hover {
+        color: white;
+        transition: color 1s;
+      }
+    }
+  }
+}
